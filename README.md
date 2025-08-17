@@ -73,29 +73,7 @@ The dataset includes the following columns:
 ---
 
 ### Class vs Age Analysis
-# suggestions: countplot, displot, histplot, scatterplot, boxplot, jointplot
-sns.set_style("white")
-
-# Age distribution by class (boxplot)
-fig, ax = plt.subplots(figsize=(10, 6))
-sns.boxplot(data=titanic, x="class", y="age", palette="Set2", ax=ax)
-ax.set_title("Age Distribution by Passenger Class", fontsize=14, fontweight='semibold')
-ax.set_xlabel("Passenger Class", fontsize=12)
-ax.set_ylabel("Age", fontsize=12)
-ax.text(x=0, y=70, s="Elderly passengers are more common in first class,\nbut younger passengers are also present.", fontsize=11)
-sns.despine()
-
-# Scatterplot for age vs fare by class
-fig, ax = plt.subplots(figsize=(10, 6))
-sns.scatterplot(data=titanic, x="age", y="fare", hue="class", palette="Set1", ax=ax)
-ax.set_title("Age vs Ticket Fare by Passenger Class", fontsize=14, fontweight='semibold')
-ax.set_xlabel("Age", fontsize=12)
-ax.set_ylabel("Fare", fontsize=12)
-ax.text(x=10, y=400, s="First-class passengers paid higher fares,\nbut included both young and old passengers.", fontsize=11)
-sns.despine()
-
-plt.show()
-
+![Deck Survival](data:image/png;base64,...)
 ---
 
 ## 💡 Insights and Discussion
