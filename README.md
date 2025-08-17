@@ -1,7 +1,5 @@
 # Titanic Dataset – Exploratory Data Analysis (EDA)
 
-![Titanic](NYT_titanic.png)
-
 > **RMS Titanic:** The RMS Titanic was a British passenger liner that sank in the North Atlantic Ocean in the early morning hours of 15 April 1912, after colliding with an iceberg during its maiden voyage from Southampton to New York City. Over 1,500 of the 2,224 passengers and crew died, making it one of the deadliest peacetime maritime disasters in history.  
 > Source: [Wikipedia](https://en.wikipedia.org/wiki/RMS_Titanic)
 
@@ -58,32 +56,24 @@ The dataset includes the following columns:
 ## 🔎 Exploratory Data Analysis
 
 ### Individual Variable Analysis
-Distribution of **age** and **fare** in the dataset:
-
-![Age Distribution](charts/age_distribution.png)  
-![Fare Distribution](charts/fare_distribution.png)
+![Age Distribution](data:image/png;base64,...)  
+![Fare Distribution](data:image/png;base64,...)
 
 ---
 
 ### Survival Analysis
-Comparison of **survival rates** across different genders and classes:
-
-![Survival by Gender](charts/survival_by_gender.png)  
-![Survival by Class](charts/survival_by_class.png)
+![Survival by Gender](data:image/png;base64,...)  
+![Survival by Class](data:image/png;base64,...)
 
 ---
 
 ### Deck-wise Survival
-Distribution of survivors across **different decks**:
-
-![Deck Survival](charts/deck_survival.png)
+![Deck Survival](data:image/png;base64,...)
 
 ---
 
 ### Class vs Age Analysis
-Relationship between **class and age** of passengers:
-
-![Class vs Age](charts/class_vs_age.png)
+![Class vs Age](data:image/png;base64,...)
 
 ---
 
@@ -101,6 +91,6 @@ Relationship between **class and age** of passengers:
 Clone the repository and run the Jupyter Notebook:
 
 ```bash
-git clone https://github.com/Mansour-E/titanic-eda.git
+git clone https://github.com/username/titanic-eda.git
 cd titanic-eda
 jupyter notebook Titanic_EDA.ipynb
